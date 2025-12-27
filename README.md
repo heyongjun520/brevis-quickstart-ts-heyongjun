@@ -86,4 +86,12 @@ Rename `.env.template` to `.env`. Fill in the required env vars.
 
 ```bash
 npx hardhat deploy --network sepolia --tags TokenTransferZkOnly
+---
+
+### Notes
+
+Tested the brevis quickstart repository by reviewing the end-to-end flow
+and following the setup instructions.  
+This repo provides a clear example of how Brevis proves historical USDC
+transfer data and integrates the proof into an application contract.
 ```
